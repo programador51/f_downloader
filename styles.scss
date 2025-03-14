@@ -1,0 +1,18 @@
+.programador51_download {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  background-color: transparent; /* Initial background color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.programador51_download:hover {
+  background-color: #1f3347; /* Background color on hover */
+}
+
+.programador51_download svg {
+  fill: #63738d; /* Set the SVG color */
+  stroke: #63738d; /* Set the SVG stroke color */
+}

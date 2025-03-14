@@ -1,0 +1,53 @@
+@import "./node_modules/bootswatch/dist/minty/bootstrap.css";
+
+.customizedFanslyIcon {
+  height: 30px;
+}
+
+.supportMeLink{
+  text-decoration-color: var(--bs-light) !important;
+
+}
+
+.supportMe {
+  background: #202020;
+  padding: 10px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 50px;
+  }
+
+
+  * {
+    font-size: 0.7rem;
+    color: var(--bs-light);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.container {
+  height: 300px;
+  width: 400px;
+  padding: 1rem;
+  overflow-y: auto;
+
+  p,
+  ol,
+  ul,
+  li,
+  h2 {
+    color: var(--bs-light);
+  }
+}
